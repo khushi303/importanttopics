@@ -6,7 +6,7 @@ const FormPage = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [contact, setContact] = useState("")
-
+    const [message, setMessage] = useState("")
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -43,7 +43,7 @@ const FormPage = () => {
                     </div>
                     <div className='w-full'>
                         <label className='text-lime-950 text-[25px] font-normal'>Message</label>
-                        <textarea name="message" className='border-[2px] bg-orange-100 border-solid border-black w-full rounded-[8px] p-[10px]' required />
+                        <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)} className='border-[2px] bg-orange-100 border-solid border-black w-full rounded-[8px] p-[10px]' required />
                     </div>
                     <input type="submit" value="Send" className='border border-solid text-white text-[25px] font-normal bg-lime-950 border-lime-950 cursor-pointer py-[12px] px-[40px] rounded-[12px]' />
                 </form>

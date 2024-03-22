@@ -14,7 +14,7 @@ const Nav = () => {
                         <Link to="/FormPage" className='text-[16px] font-normal text-[#010101] leading-[100%] hover:font-semibold transition-all duration-300 ease-linear'>Form</Link >
                         <Link to="/Modal" className='text-[16px] font-normal text-[#010101] leading-[100%] hover:font-semibold transition-all duration-300 ease-linear'>Modal</Link>
                         <Link to="/AccSec" className='text-[16px] font-normal text-[#010101] leading-[100%] hover:font-semibold transition-all duration-300 ease-linear'>Accordian</Link>
-                        <Link to="/SlickSlider" className='text-[16px] font-normal text-[#010101] leading-[100%] hover:font-semibold transition-all duration-300 ease-linear'>SlickSlider</Link>
+                        <Link to="/SliderSec" className='text-[16px] font-normal text-[#010101] leading-[100%] hover:font-semibold transition-all duration-300 ease-linear'>SlickSlider</Link>
                         <Link to="/ReducerCounter" className='text-[16px] font-normal text-[#010101] leading-[100%] hover:font-semibold transition-all duration-300 ease-linear'>ReducerCounter</Link>
                     </ul>
                     <div className='flex items-center gap-[16px]'>
