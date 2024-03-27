@@ -23,10 +23,6 @@ const AccSec = () => {
             title: "Maecenas laoreet, sapien vel cursus ultricies?",
             content: "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
         },
-        {
-            title: "Maecenas laoreet, sapien vel cursus ultricies?",
-            content: "Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies?",
-        },
     ];
     return (
         <>
